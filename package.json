@@ -1,7 +1,7 @@
 {
-  "name": "@caspertech/buffer",
+  "name": "@imajin/buffer",
   "description": "Node.js Buffer API, for the browser",
-  "version": "6.0.8",
+  "version": "6.0.3r4",
   "author": {
     "name": "Feross Aboukhadijeh",
     "email": "feross@feross.org",
@@ -50,7 +50,8 @@
     "uint8array"
   ],
   "license": "MIT",
-  "main": "index.js",
+  "main": "node.js",
+  "browser": "browser.js",
   "types": "index.d.ts",
   "repository": {
     "type": "git",
